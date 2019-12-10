@@ -28,10 +28,10 @@ class School
     #@roster.each_value {|value| puts value}
     # @roster.each {|key,value|} 
     #     puts @roster[key]
-    # @roster.each_value do |value|
-    #     value.sort
+     @roster.each_value do |value|
+         value.sort!
        
-    #   end
+       end
     
      #@roster.each {|key, value| puts "#{key} is #{value}" }
      @roster.each {|key, value| value.sort! }
