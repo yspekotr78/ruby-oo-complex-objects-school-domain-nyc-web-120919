@@ -15,3 +15,4 @@ class School
   end
   
 end
+add_student(name,grade)
