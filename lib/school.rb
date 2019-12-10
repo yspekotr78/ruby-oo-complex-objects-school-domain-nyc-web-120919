@@ -1,4 +1,5 @@
 # code here!
+require 'pry'
 class School
   def initialize(roster)
     @roster=roster
@@ -10,6 +11,7 @@ class School
     
     @roster[grade]=[]
     @roster[grade] << "name"
+    binding.pry
   end
   
 end
