@@ -11,7 +11,7 @@ class School
     # binding.pry
     @roster[grade]
     @roster[grade] << name
-    #binding.pry
+    binding.pry
   end
   
 end
